@@ -1,0 +1,180 @@
+html{
+    background-color: #FEFEC8;
+}
+
+header{
+    font-family: 'Bungee', cursive;
+    text-align: center;
+    line-height: 0;
+}
+
+header h1{
+    font-size: 4.5em;
+    color:#FFB63A;
+    text-shadow: 7px 2px #F17A04;
+    line-height: 1em;
+}
+
+nav{
+    border:5px solid #2C3925;
+    border-width:1px 0;
+    list-style:none;
+    margin-bottom:40px;
+    padding:10px;
+    text-align:center;
+}
+nav li{
+    display:inline;
+}
+nav a{
+    font-size: 1.25em;
+    display:inline-block;
+    padding-right:20px;
+    color:#293004;
+    text-shadow: 2px 1px #F17A04;
+}
+
+nav a:hover{
+    color:#F17A04;
+    text-shadow: 2px 2px #293004;
+}
+
+#Intro{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25em;
+}
+
+#Intro img{
+    border-radius: 50%;
+    border: 20px solid #F17A04;
+    box-shadow:  0px 0px 0 20px #FFB63A;
+}
+
+#Image:before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 5px solid #FFB63A;
+}
+
+#Resume{
+    background-color: #293004;
+    padding: 7em;
+    font-family: 'Ubuntu', sans-serif;
+    color:#FEFEC8;
+}
+
+
+#Resume h2{
+    text-align: center;
+    color: #F17A04;
+    font-family: 'Bungee', cursive;
+    font-size: 2.5em;
+    line-height: 0;
+}
+
+#Resume h3{
+    font-size:1.5em;
+    text-decoration: underline;
+    color:#FFB63A;
+    line-height: 0;
+    padding-top:1em;
+}
+
+#Resume h4{
+    color:#F17A04;
+    font-size:1.25em;
+    line-height: 0;
+    padding-top:1em;
+}
+
+#Resume h5{
+    font-size:1em;
+    line-height: 0;
+    font-style: italic;
+}
+
+#Resume p{
+    font-size:.80em;
+}
+
+#resume1 a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #FEFEC8;
+    font-family: 'Bungee', cursive;
+    border: 8px solid #F17A04;
+}
+
+#resume1{
+    background-color:#293004;
+    text-align: center;
+    padding-bottom: 50px
+}
+
+#Education{
+    text-align: center;
+    background-color: #2C3925;
+    padding: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    color:#FFB63A;;
+}
+
+#Education li{list-style: none}
+
+#Education h2{
+    color:#FEFEC8;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 2.5em;
+    line-height: 0;
+}
+
+#Education h3{
+    font-size:1.5em;
+    color:#F17A04;
+    line-height: 0;
+    padding-top:1em;
+}
+
+#gallery img{
+    text-align: center;
+    background-color: #2C3925;
+    padding:20px;
+    border: 20px solid #F17A04;
+    box-shadow:  0 0 0 10px #FFB63A;;
+}
+
+#gallery{
+    padding: 30px;
+    text-align: center;
+    background-color: #293004;
+}
+
+#Personal{
+    background-color: #293004;
+    padding-bottom: 50px;
+}
+
+#text{
+    background-color: #F17A04;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 5em;
+    margin-left:5em;
+    padding: 30px;
+    font-size:1.2em;
+}
+
+#text h2{
+    color:#FEFEC8;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 2.5em;
+    line-height: 0;
+}
